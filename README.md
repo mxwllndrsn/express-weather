@@ -29,3 +29,15 @@ success
 success
 ...
 ```
+
+###heroku
+
+A heroku deployment can be seen [here](http://mxwllndrsn-express-weather.herokuapp.com), the default environment port vs local:3000 needs to be set for PaaS deployments:
+
+```javascript
+app.set('port', process.env.PORT)
+
+app.listen(app.get('port'), function () {
+	console.log(`listening port: ${app.get('port')}`)
+})
+```
