@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/mxwllndrsn/express-weather#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.0"
+    "express": "^4.17.1"
   }
 }
