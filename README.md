@@ -30,7 +30,7 @@ success
 ...
 ```
 
-### heroku
+## heroku
 
 A heroku deployment can be seen [here](http://mxwllndrsn-express-weather.herokuapp.com), the default environment port vs local:3000 needs to be set for PaaS deployments:
 
