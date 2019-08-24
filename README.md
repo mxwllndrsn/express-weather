@@ -7,13 +7,6 @@ express weather
 
 To use, clone this repository or include *weather-express* as a dependency in your application for the latest version:
 
-```bash
-npm init
-...
-```
-
-in package.json:
-
 ```json
 "dependencies": {
 	"express-weather": "git+ssh://git@github.com:mxwllndrsn/express-weather.git"
