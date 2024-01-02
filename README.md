@@ -32,6 +32,8 @@ success
 
 ## heroku
 
+**as of 11/2022 Heroku deployments have been spun down** 
+
 A heroku deployment can be seen [here](http://mxwllndrsn-express-weather.herokuapp.com), the default environment port vs local:3000 needs to be set for PaaS deployments:
 
 ```javascript
